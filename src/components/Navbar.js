@@ -13,24 +13,21 @@ import Contact from '../pages/Contact.js';
 
 export default function NavbarComponent() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="navbar" expand="lg" bg="#31363B">
       <Container>
-        <Navbar.Brand href="#">Dom's Programming Blog</Navbar.Brand>
+        <Navbar.Brand className="navbarbrand" href="#">Dom's Programming Blog</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link Link to='/'>Home</Nav.Link>
-            <NavDropdown title="Programming" className="basic-nav-dropdown">
-              <NavDropdown.Item Link to='/'>Python</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item Link to='/'>C</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item Link to='/'>HTML/CSS</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item Link to='/'>JavaScript</NavDropdown.Item>
+            <NavDropdown title="Programming" className="dropdownmenu">
+              <NavDropdown.Item className="dropdownelement" Link to='/'>Python</NavDropdown.Item>
+              <NavDropdown.Item className="dropdownelement" Link to='/'>C</NavDropdown.Item>
+              <NavDropdown.Item className="dropdownelement" Link to='/'>HTML/CSS</NavDropdown.Item>
+              <NavDropdown.Item className="dropdownelement" Link to='/'>JavaScript</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Content Areas" className="basic-nav-dropdown">
+            <NavDropdown title="Content Areas" className="dropdownmenu">
               <NavDropdown.Item Link to='/'>CA 1 - 4</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item Link to='/'>CA 5 - 8</NavDropdown.Item>

@@ -1,3 +1,53 @@
 body{
     background-color: #31363B;
 }
+.navbar
+{
+    background-color: #31363B;
+}
+.navbar:active
+{
+    color: lightblue;
+}
+.nav-link
+{
+    color: white;
+}
+.nav-link:hover
+{
+    color: lightblue;
+}
+.nav-link:active
+{
+    color: lightblue;
+}
+
+.basic-nav-dropdown
+{
+    color: white;
+    background-color: #31363B;
+}
+
+.navbarbrand
+{
+    color: white;
+}
+.navbarbrand:hover
+{
+    color: lightblue;
+}
+
+.dropdownelement
+{
+    background-color: #31363B;
+    color: white;
+}
+.Programming
+{
+    background-color: #31363B;
+}
+.dropdownmenu
+{
+    padding-top:0px;
+    padding-bottom:0px;
+}
