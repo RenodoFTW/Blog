@@ -1,13 +1,28 @@
 body{
-    background-color: darkblue;
+    background-color: #31363B;
 }
 .navbar
 {
-    height: 20%;
+    height: 3rem;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-evenly;
-    background-color: rgb(1, 1, 73);
+    background-color: #31363B;
     color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: #0088FF;
+    font-size: large;
+}
+
+.navdiv
+{
+    height: 3rem;
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
 }
