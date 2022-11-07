@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-thing/static/css/main.6f390b1f.css",
-    "main.js": "/react-thing/static/js/main.992efd95.js",
+    "main.css": "/react-thing/static/css/main.6d2d0c07.css",
+    "main.js": "/react-thing/static/js/main.c3b28c05.js",
     "static/media/Esports_Web1.png": "/react-thing/static/media/Esports_Web1.17b29981c3f4a921c716.png",
     "static/media/Esports_Web5.png": "/react-thing/static/media/Esports_Web5.175cb2fbbf118e82b751.png",
     "static/media/Esports_Web4.png": "/react-thing/static/media/Esports_Web4.d12d218916b06a2898cc.png",
     "index.html": "/react-thing/index.html",
-    "main.6f390b1f.css.map": "/react-thing/static/css/main.6f390b1f.css.map",
-    "main.992efd95.js.map": "/react-thing/static/js/main.992efd95.js.map"
+    "main.6d2d0c07.css.map": "/react-thing/static/css/main.6d2d0c07.css.map",
+    "main.c3b28c05.js.map": "/react-thing/static/js/main.c3b28c05.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f390b1f.css",
-    "static/js/main.992efd95.js"
+    "static/css/main.6d2d0c07.css",
+    "static/js/main.c3b28c05.js"
   ]
 }
