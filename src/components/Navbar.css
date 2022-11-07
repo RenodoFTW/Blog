@@ -1,53 +1,24 @@
 body{
     background-color: #31363B;
 }
-.navbar
+.Navbar
 {
-    background-color: #31363B;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
 }
-.navbar:active
-{
-    color: lightblue;
-}
-.nav-link
+.nav-title
 {
     color: white;
+    font-size: 28px;
 }
-.nav-link:hover
-{
-    color: lightblue;
-}
-.nav-link:active
-{
-    color: lightblue;
-}
-
-.basic-nav-dropdown
+.nav-item
 {
     color: white;
-    background-color: #31363B;
-}
-
-.navbarbrand
-{
-    color: white;
-}
-.navbarbrand:hover
-{
-    color: lightblue;
-}
-
-.dropdownelement
-{
-    background-color: #31363B;
-    color: white;
-}
-.Programming
-{
-    background-color: #31363B;
-}
-.dropdownmenu
-{
-    padding-top:0px;
-    padding-bottom:0px;
+    font-size: 20px;
 }

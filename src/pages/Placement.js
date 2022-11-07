@@ -1,3 +1,9 @@
+import testimg from '../images/Esports_Web1.png'
 export default function Placement() {
-    return <h1>Placement</h1>
+    return <div>
+        <img
+        className="testimg"
+        src={testimg}
+        ></img>
+    </div>
 }
