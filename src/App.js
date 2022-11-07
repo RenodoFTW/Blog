@@ -1,7 +1,6 @@
 import { BrowserRouter, HashRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import Navbar from './components/Navbar';
-import Carousel from './components/Carousel';
 import Programming from './pages/Programming';
 import Homepage from './pages/Homepage';
 import ContentArea from './pages/Content Areas';
