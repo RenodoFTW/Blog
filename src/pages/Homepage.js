@@ -21,10 +21,6 @@ export default function Homepage() {
                     className='Python'
                     src={Python}
                     ></img>
-                    <img
-                    className='C'
-                    src={C}
-                    ></img>
                 </div>
             </div>
         </div>
