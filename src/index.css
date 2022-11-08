@@ -19,3 +19,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.dropdown {
+  @apply absolute -top-32 group-hover:top-14 -z-30;
+  @apply bg-darkblack group-hover:bg-darkblack bg-transparent;
+  @apply w-32 rounded drop-shadow-md;
+  @apply [&>*]:group-hover:visible [&>*]:invisible text-white;
+  @apply flex flex-col p-2;
+  @apply transition-all duration-300;
+}
