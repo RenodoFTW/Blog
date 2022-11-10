@@ -1,0 +1,11 @@
+.testimg
+{
+    width:75%;
+    height: 10%;
+    margin-top: 10px;
+}
+.Topdiv
+{
+    display: flex;
+    justify-content: center;
+}
