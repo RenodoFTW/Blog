@@ -90,3 +90,27 @@
     height: 30%;
     width: 30%;
 }
+.Topdiv
+{
+    font-size:48px;
+    width: 100%;
+    height: 100%;
+    color: lightblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.Titletext
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border: solid;
+    border-width: 3px;
+    padding: 20px;
+    background-image: linear-gradient(to right,#060a2b,#089ffc);
+}
+.border-gradient
+{
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #089ffc,#060a2b);
+}

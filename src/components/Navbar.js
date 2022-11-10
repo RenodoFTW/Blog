@@ -25,7 +25,7 @@ function NavigationButton({ text, goto, selected, setSelected, children }) {
             navigate(goto);
         }}>
             <p className={`
-                ${selected === goto ? 'text-lblue' : 'text-lblue hover:text-white/75 cursor-pointer '} 
+                ${selected === goto ? 'text-lblue' : 'text-lblue hover:text-dblue/75 cursor-pointer '} 
                 text-xl select-none duration-500 transition-all
             `}>{text}</p>
         </div>
@@ -121,7 +121,7 @@ export default function Navbar() {
 
     const [selected, setSelected] = useState(pages[0].goto);
 
-    return <div className='w-screen h-24 bg-darkblack z-50 relative flex items-center p-5 space-x-5'>
+    return <div className='w-screen h-24 bg-darkblack-500 z-50 relative flex items-center p-5 space-x-5'>
         {pages.map((page, i) => <NavigationButton key={i}
             text={page.text}
             goto={page.goto}
