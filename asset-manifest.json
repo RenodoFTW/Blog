@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Blog/static/css/main.2df2ae02.css",
-    "main.js": "/Blog/static/js/main.cfbbfa6c.js",
+    "main.css": "/Blog/static/css/main.f128a162.css",
+    "main.js": "/Blog/static/js/main.437e0998.js",
     "static/media/Esports_Web1.png": "/Blog/static/media/Esports_Web1.17b29981c3f4a921c716.png",
     "static/media/Esports_Web5.png": "/Blog/static/media/Esports_Web5.175cb2fbbf118e82b751.png",
     "static/media/Esports_Web4.png": "/Blog/static/media/Esports_Web4.d12d218916b06a2898cc.png",
@@ -10,11 +10,11 @@
     "static/media/SQL Image.png": "/Blog/static/media/SQL Image.d61becc5cb6ff2f37b67.png",
     "static/media/C Image.png": "/Blog/static/media/C Image.1213e7d7466d0b1d32e5.png",
     "index.html": "/Blog/index.html",
-    "main.2df2ae02.css.map": "/Blog/static/css/main.2df2ae02.css.map",
-    "main.cfbbfa6c.js.map": "/Blog/static/js/main.cfbbfa6c.js.map"
+    "main.f128a162.css.map": "/Blog/static/css/main.f128a162.css.map",
+    "main.437e0998.js.map": "/Blog/static/js/main.437e0998.js.map"
   },
   "entrypoints": [
-    "static/css/main.2df2ae02.css",
-    "static/js/main.cfbbfa6c.js"
+    "static/css/main.f128a162.css",
+    "static/js/main.437e0998.js"
   ]
 }
