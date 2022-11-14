@@ -37,6 +37,7 @@ export default function Navbar() {
     const pages = [
       {
         text: "Dom's Blog Website",
+        goto: '/'
       },
         {
             text: 'Home',

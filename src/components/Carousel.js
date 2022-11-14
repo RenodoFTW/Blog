@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Carousel.css';
 import Web1 from '../images/Esports_Web1.png';
-import Web5 from '../images/Esports_Web5.png';
+import Web5 from '../images/Esports_Web2.png';
 import Web4 from '../images/Esports_Web4.png';
 
 export default function CarouselComponent() {
