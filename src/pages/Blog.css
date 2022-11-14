@@ -1,13 +1,54 @@
-.BlogEntry1
+.Blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.FunctionalBlog
 {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin-left: 10px;
+    align-items: center;
     width: 25%;
-    color: lightblue;
-    font-size: 28px;
+    min-height: 30vh;
     border: solid;
+    background-color: rgb(37, 37, 37);
+    padding: 10px;
+    text-align: center;
+}
+.Project
+{
     border-color: blue;
     border-width: 3px;
     border-radius: 10px;
-    background-color: rgb(37, 37, 37);
+}
+.Subject
+{
+    border-color: green;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.UX
+{
+    border-color: grey;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.Blog-link
+{
+    color: lightblue;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+.Blog-desc
+{
+    color: lightskyblue;
+    font-size: 18px;
+}
+.Blog-date
+{
+    color: lightskyblue;
+    font-size: 18px;
+    margin-bottom: 25px;
 }

@@ -19,7 +19,8 @@ import Script from './pages/javascript';
 import Misc from './pages/misc';
 import UX from './pages/ux';
 import Python from './pages/python';
-import Functional from './pages/Functional_Requirements_Blog'
+import Functional from './pages/Functional_Requirements_Blog';
+import Principles from './pages/7_Principles_UX';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
             <Route path='/Masterclasses' element={<Masterclasses />} />
             <Route path='/Contact' element={<Contact />} />
             <Route path='/Functional' element={<Functional />} />
+            <Route path='/7Principles' element={<Principles/>} />
 
         </Routes>
     </HashRouter>
