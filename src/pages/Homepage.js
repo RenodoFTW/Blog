@@ -10,9 +10,6 @@ import React from 'react';
 
 export default function Homepage() {
     return <div>
-        <div className='Topdiv'>
-            <h1 className='Titletext border-gradient'>Welcome To My Blog!</h1>
-        </div>
         <Carousel />
 
         

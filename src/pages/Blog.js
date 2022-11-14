@@ -1,9 +1,11 @@
 import './Blog.css';
+import Functional from "./Functional_Requirements_Blog";
+import { useNavigate, Link } from "react-router-dom";
 
 export default function Blog() {
-    return <div className="Topdiv">
-        <div className='Headerbox'>
-            <h1 className='Titletext border-gradient'>      Blog      </h1>
+    return <div> 
+        <div className="BlogEntry1">
+            <Link to='/Functional'>Functional Requirements</Link>
         </div>
     </div>
 }
