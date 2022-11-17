@@ -52,41 +52,41 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 10px;
 }
 .HTML
 {
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
 }
 .Python
 {
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
 }
 .C{
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
 }
 .row2
 {
     margin-top: 10px;
-    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .MySQL
 {
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
 }
 .JavaScript
 {
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
 }
 .Reactimg
 {
-    height: 30%;
-    width: 30%;
+    height: 20%;
+    width: 20%;
 }

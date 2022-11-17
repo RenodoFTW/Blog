@@ -1,10 +1,10 @@
 import Carousel from '../components/Carousel';
-import HTML from '../images/HTML Image.png';
-import Python from '../images/Python Image.png';
-import C from '../images/C Image.png';
-import MySQL from '../images/SQL Image.png';
-import JavaScript from '../images/Javascript Image.png';
-import Reactimg from '../images/React Image.png';
+import HTML from '../images/html-1.svg';
+import Python from '../images/python-5.svg';
+import C from '../images/c-1.svg';
+import MySQL from '../images/mysql-6.svg';
+import JavaScript from '../images/logo-javascript.svg';
+import Reactimg from '../images/react-2.svg';
 import './Homepage.css';
 import React from 'react';
 
