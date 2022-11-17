@@ -16,5 +16,10 @@ export default function Blog() {
             going through an example, the Overwatch 2 website.
             </p>
         </div>
+        <div className="FunctionalBlog Subject">
+            <Link to='/Testing' className='Blog-link'>Testing Strategy</Link>
+            <p className='Blog-desc'>A draft testing strategy for our Gibjohn project + notes.
+            </p>
+        </div>
     </div>
 }

@@ -21,6 +21,7 @@ import UX from './pages/ux';
 import Python from './pages/python';
 import Functional from './pages/Functional_Requirements_Blog';
 import Principles from './pages/7_Principles_UX';
+import Testing from './pages/Testing';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
             <Route path='/Contact' element={<Contact />} />
             <Route path='/Functional' element={<Functional />} />
             <Route path='/7Principles' element={<Principles/>} />
+            <Route path='/Testing' element={<Testing/>} />
 
         </Routes>
     </HashRouter>
